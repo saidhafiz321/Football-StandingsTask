@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Klasemen Sepak Bola</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Klasemen Sepak Bola</h1>
+    <form id="addTeam">
+      <input type="text" name="name" placeholder="Nama Tim">
+      <input type="text" name="played" placeholder="Main">
+      <input type="text" name="win" placeholder="Menang">
+      <input type="text" name="draw" placeholder="Seri">
+      <input type="text" name="loss" placeholder="Kalah">
+      <input type="text" name="scored" placeholder="Gol">
+      <input type="text" name="against" placeholder="Gol Diterima">
+      <input type="text" name="points" placeholder="Poin">
+      <button type="submit">Tambahkan Tim</button>
+    </form>
+    <table id="standings">
+      <tr>
+        <th>Team Name</th>
+        <th>Pld</th>
+        <th>W</th>
+        <th>D</th>
+        <th>L</th>
+        <th>GF</th>
+        <th>GA</th>
+        <th>Pts</th>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
